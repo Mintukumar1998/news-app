@@ -6,6 +6,16 @@
   height: 40vmin;
   pointer-events: none;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,7 +23,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,17 +32,33 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
 }
 
-.App-link {
+h1 {
+  font-size: 2.5rem;
+}
+
+div {
+  margin: 20px;
+} 
+h2 {
+  font-size: 1.5rem;
+}
+
+a {
   color: #61dafb;
+} 
+label {
+  margin: 0 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+select {
+  margin: 0 10px;
+  padding: 5px;
+  font-size: 1rem;
 }
